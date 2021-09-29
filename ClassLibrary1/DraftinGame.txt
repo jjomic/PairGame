@@ -1,0 +1,45 @@
+﻿- set the killer, but hide the killer --> randomly generate the killer
+- set clue(s) to rooms
+- "main room"
+	- menu screen
+		- 1. Suspects
+			- 1. Martin
+				- bio
+				- interact
+				- back to suspects
+			- 2. Karen
+				- bio
+				- interact
+				- back to suspects
+			- 3. Matthew
+				- bio
+				- interact
+				- back to suspects
+			- 4. Linda
+				- bio
+				- interact
+				- back to suspects
+			- 5. Peter
+				- bio
+				- interact
+				- back to suspects
+			- 6. go back to main room
+		- 3. Explore Rooms
+			- 1. kitchen
+				- clue
+			- 2. living room
+				- dummy room, nothing in here.
+			- 3. shed
+				- clue
+			- 4. garage
+				- clue
+			- 5. dining room
+				- clue
+			- 6. return to main room
+		- 4. Make an accusation
+			- Are you sure?
+			- Enter the name of the killer.
+				- if name is correct: you win, you were the killer.
+				- if name is wrong: try again.
+- characters = 1 dead, 4 innocent, 1 killer
+- figure out how to lock make an accusation until sufficient investigating is complete.

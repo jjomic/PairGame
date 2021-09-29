@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PairGame", "ClassLibrary1\PairGame.csproj", "{80210C68-FDFD-4F44-A403-C9ECF78AD8B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MurderMystery_Console", "MurderMystery_Console\MurderMystery_Console.csproj", "{D60AB2E8-CDFC-4AB8-9E55-025F584C0815}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80210C68-FDFD-4F44-A403-C9ECF78AD8B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80210C68-FDFD-4F44-A403-C9ECF78AD8B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80210C68-FDFD-4F44-A403-C9ECF78AD8B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80210C68-FDFD-4F44-A403-C9ECF78AD8B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D60AB2E8-CDFC-4AB8-9E55-025F584C0815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D60AB2E8-CDFC-4AB8-9E55-025F584C0815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D60AB2E8-CDFC-4AB8-9E55-025F584C0815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D60AB2E8-CDFC-4AB8-9E55-025F584C0815}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAE51EDD-AD98-4F40-9FFF-175305D0FFD1}
+	EndGlobalSection
+EndGlobal
