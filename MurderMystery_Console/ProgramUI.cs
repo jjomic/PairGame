@@ -24,7 +24,7 @@ namespace MurderMystery_Console
             {
                 Console.Clear();
                 Console.WriteLine(
-                    "Dr. Jamison Jamison was murdered tonight in his home during the middle of a dinner party. His butler, Martin, reported the crime.\n" + "You have been called to help find the killer.\n" + "The 4 guests of the dinner party have all been held for questioning,\n" + "and the entire house has been opened up for you to investigate. Where would you like to start?\n" + "\n" +
+                    "Dr. Jamison Jamison was murdered tonight in his home during the middle of a dinner party.\n" + "His butler, Martin, reported the crime.\n" + "You have been called to help find the killer.\n" + "The 4 guests of the dinner party have all been held for questioning,\n" + "and the entire house has been opened up for you to investigate. Where would you like to start?\n" + "\n" +
                     "\t1. Suspects\n" +
                     "\t2. Search the house.\n" +
                     "\t3. Make an accusation.\n" +
