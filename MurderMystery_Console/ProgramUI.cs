@@ -24,7 +24,7 @@ namespace MurderMystery_Console
             {
                 Console.Clear();
                 Console.WriteLine(
-                    "Dr. Jamison Jamison was murdered tonight in his home during the middle of a dinner party. His butler, Martin, reported the crime. You have been called to help find the killer. The 4 guests of the dinner party have all been held for questioning, and the entire house has been opened up for you to investigate. Where would you like to start?\n" + "\n" +
+                    "Dr. Jamison Jamison was murdered tonight in his home during the middle of a dinner party. His butler, Martin, reported the crime.\n" + "You have been called to help find the killer.\n" + "The 4 guests of the dinner party have all been held for questioning,\n" + "and the entire house has been opened up for you to investigate. Where would you like to start?\n" + "\n" +
                     "\t1. Suspects\n" +
                     "\t2. Search the house.\n" +
                     "\t3. Make an accusation.\n" +
@@ -61,7 +61,7 @@ namespace MurderMystery_Console
             while (isRunning)
             {
                 Console.Clear();
-                Console.WriteLine("As you look around the main room, you see the five suspects that have been held on the premesis for questioning. Choose who you'd like to speak with first.\n" + "\n" +
+                Console.WriteLine("As you look around the main room, you see the five suspects that have been held on the premesis for questioning.\n" + "Choose who you'd like to speak with first.\n" + "\n" +
                     "\t1. Martin\n" +
                     "\t2. Karen\n" +
                     "\t3. Matthew\n" +
@@ -152,7 +152,7 @@ namespace MurderMystery_Console
                 MysteryContent killer = new MysteryContent();
                 {
                     Console.Clear();
-                    Console.WriteLine("Have you gathered all the evidence? If you are ready, lets lock this criminal up. Enter the number of which suspect you think committed the crime.\n" +
+                    Console.WriteLine("Have you gathered all the evidence? If you are ready, lets lock this criminal up.\n" + "Enter the number of which suspect you think committed the crime.\n" +
                        "\t1. Martin\n" +
                        "\t2. Karen\n" +
                        "\t3. Matthew\n" +
@@ -169,31 +169,31 @@ namespace MurderMystery_Console
                         if (_killer.OfficialAccusation == Suspects.Martin)
                         {
                             Console.Clear();
-                            Console.WriteLine("You did it! You found the killer.Great job!\n" + "\n" + "You're right. It was me. I'd had it with Jamison's antics. Paying every, other worker extra, except me. Even the kid's soccer coach got more money than me? Ridiculous. I've worked for this family since before he was born, and I couldn't take it any more! After our latest altercation about my wages, I wrote my resignation letter, but Jamison would not have. Therefore, I found the nearest object I could, and did what needed to be done.");
+                            Console.WriteLine("You did it! You found the killer.Great job!\n" + "\n" + "You're right. It was me. I'd had it with Jamison's antics. Paying every, other worker extra, except me.\n" + "Even the kid's soccer coach got more money than me? Ridiculous.\n" + "I've worked for this family since before he was born, and I couldn't take it any more! After our latest altercation about my wages,\n" + "I wrote my resignation letter, but Jamison would not have. Therefore, I found the nearest object I could,\n" + "and did what needed to be done.");
                             Console.ReadKey();
                         }
                         else if (_killer.OfficialAccusation == Suspects.Karen)
                         {
                             Console.Clear();
-                            Console.WriteLine("You did it! You found the killer.Great job!\n" + "\n" + "Yep. That's right. I did it. I couldn't stand little Mrs.Jamison a second longer. When I approached her goodie two shoes husband about my complaints, he told me....ME to 'Calm down. It's only juice, Karen.' No ONE speaks to me like that *aggressive finger snapping*. Therefore, I took one of those cheap lamps from the living room....THAT'S RIGHT MRS.JAMISON, I KNOW WHERE YOU GOT THOSE...And beat the hell out of Jamison. Unfortunately, my plan didn't work, as you never even suspected his wife.");
+                            Console.WriteLine("You did it! You found the killer.Great job!\n" + "\n" + "Yep. That's right. I did it. I couldn't stand little Mrs.Jamison a second longer.\n" + "When I approached her goodie two shoes husband about my complaints,\n" + "he told me....ME to 'Calm down. It's only juice, Karen.' No ONE speaks to me like that\n" + "*aggressive finger snapping*.\n" + "Therefore, I took one of those cheap lamps from the living room....\n" + "THAT'S RIGHT MRS.JAMISON, I KNOW WHERE YOU GOT THOSE...And beat the daylights out of Jamison.\n" + "Unfortunately, my plan didn't work, as you never even suspected his wife.");
                             Console.ReadKey();
                         }
                         else if (_killer.OfficialAccusation == Suspects.Matthew)
                         {
                             Console.Clear();
-                            Console.WriteLine("You did it! You found the killer.Great job!\n" + "\n" + "It was me. Jamison told me he was going to be firing me at the end of the season and replacing me with Peter....which ultimately makes sense, but I was none the less furious about it. This was my main souce of income over the last 3 years, and I didn't want to go back to working an actual job. To be honest, I would've probably confessed within the week, anyway.");
+                            Console.WriteLine("You did it! You found the killer.Great job!\n" + "\n" + "It was me. Jamison told me he was going to be firing me\n" + "at the end of the season and replacing me with Peter....\n" + "which ultimately makes sense, but I was none the less furious about it.\n" + "This was my main source of income over the last 3 years, and I didn't want to go back to working an actual job.\n" + "To be honest, I would've probably confessed within the week, anyway.");
                             Console.ReadKey();
                         }
                         else if (_killer.OfficialAccusation == Suspects.Linda)
                         {
                             Console.Clear();
-                            Console.WriteLine("You did it! You found the killer.Great job!\n" + "\n" + "*Linda starts to sob uncontrollably*\n" + "IT WAS ME. IT WAS ME. OH GOD IT WAS ME. Jamison told me he was planning on investing in the latest crypto currency, FartLekCoin. FARTLEKCOIN, for Christ's sake. I simply could not let him go through with it, and was planning my resignation. However, I didn't want the family to suffer from this terrible investment, so I did the only thing that came to mind. Oh Jamison, I'm so sorry!");
+                            Console.WriteLine("You did it! You found the killer.Great job!\n" + "\n" + "*Linda starts to sob uncontrollably*\n" + "IT WAS ME. IT WAS ME. OH GOD IT WAS ME. Jamison told me he was planning on investing\n" + "in the latest crypto currency, FartLekCoin. FARTLEKCOIN, for Christ's sake.\n" + "I simply could not let him go through with it, and was planning my resignation.\n" + "However, I didn't want the family to suffer from this terrible investment,\n" + "so I did the only thing that came to mind. Oh Jamison, I'm so sorry!");
                             Console.ReadKey();
                         }
                         else if (_killer.OfficialAccusation == Suspects.Peter)
                         {
                             Console.Clear();
-                            Console.WriteLine("You did it! You found the killer.Great job!\n" + "\n" + "Oi! It was me. I cornered Jamison midway through the party to finally try to get through to him that I, not Matthew, needed to be the one coaching his son. Jamison, YET AGAIN, turned me down. Seeing as we were in the garage, I figured it was finally time to show him just how great at football I am. I placed me ball down, lined up me strike, and scored the best game winner of me life. I regret ");
+                            Console.WriteLine("You did it! You found the killer.Great job!\n" + "\n" + "Oi! It was me. I cornered Jamison midway through the party to finally\n" + "try to get through to him that I, not Matthew, needed to be the one coaching his son.\n" + "Jamison, YET AGAIN, turned me down. Seeing as we were in the garage,\n" + "I figured it was finally time to show him just how great at football I am.\n" + "I placed me ball down, lined up me strike,\n" + "and scored the best game winner of me life. I regret nothing.");
                             Console.ReadKey();
 
                         }
@@ -232,20 +232,20 @@ namespace MurderMystery_Console
                 {
                     case "1":
                         Console.Clear();
-                        Console.WriteLine("1. What were you doing leading up to the discovery of the body?\n" + "\n" + "I was checking in with the kitchen staff, as Karen had asked me (for the 5th time in 45 minutes, mind you) how much longer it would be until dinner was prepared.\n" +
+                        Console.WriteLine("1. What were you doing leading up to the discovery of the body?\n" + "\n" + "I was checking in with the kitchen staff, as Karen had asked me (for the 5th time in 45 minutes, mind you)\n" + "how much longer it would be until dinner was prepared.\n" +
                             "*Martin emphatically rolls his eyes*\n");
                         Console.WriteLine("Press any key to continue...");
                         Console.ReadKey();
                         break;
                     case "2":
                         Console.Clear();
-                        Console.WriteLine("2. How was your relationship with Dr. Jamison leading up to tonight?\n" + "\n" + "*Martin sighs*\n" + "Dr. Jamison was a lovely man to work for. A fair man, and loyal to those who worked for him. However, he could be more than frugal, at times. Case in point: I had been trying to speak to him about raising my wages for the last few months, and he would continuously dodge the conversation. A shame that it is now one we will never have.\n");
+                        Console.WriteLine("2. How was your relationship with Dr. Jamison leading up to tonight?\n" + "\n" + "*Martin sighs*\n" + "Dr. Jamison was a lovely man to work for. A fair man, and loyal to those who worked for him.\n" + "However, he could be more than frugal, at times. Case in point: I had been trying to speak to him about raising my wages for the last few months,\n" + "and he would continuously dodge the conversation. A shame that it is now\n" + "one we will never get to have.\n");
                         Console.WriteLine("Press any key to continue...");
                         Console.ReadKey();
                         break;
                     case "3":
                         Console.Clear();
-                        Console.WriteLine("3. Out of the people here, who do you think is responsbile?\n" + "\n" + "I have never trusted Linda. I mean, seriously. Who puts pineapple on their pizza? Preposterous. Savage, really.\n");
+                        Console.WriteLine("3. Out of the people here, who do you think is responsbile?\n" + "\n" + "I have never trusted Linda. I mean, seriously. Who puts pineapple on their pizza?\n" + "Preposterous. Savage, really.\n");
                         Console.WriteLine("Press any key to continue...");
                         Console.ReadKey();
                         break;
@@ -281,20 +281,20 @@ namespace MurderMystery_Console
                 {
                     case "1":
                         Console.Clear();
-                        Console.WriteLine("1. What were you doing leading up to the discovery of the body?\n" + "\n" + "Not that it is any of YOUR business, but I was waiting on my dinner. It had been hours, and the good for nothing kitchen staff was simply ignoring all of my requests. I was trying to find Dr.Jamison to file a complaint.\n" +
+                        Console.WriteLine("1. What were you doing leading up to the discovery of the body?\n" + "\n" + "Not that it is any of YOUR business, but I was waiting on my dinner.\n" + "It had been hours, and the good for nothing kitchen\n" + "staff was simply ignoring all of my requests.\n"+ "I was trying to find Dr.Jamison to file a complaint.\n" +
                             "*Martin is still emphatically rolling his eyes*\n");
                         Console.WriteLine("Press any key to continue...");
                         Console.ReadKey();
                         break;
                     case "2":
                         Console.Clear();
-                        Console.WriteLine("2. How was your relationship with Dr. Jamison leading up to tonight?\n" + "\n" + "Dr. Jamison? He was fine. Now his wife? Don't even get me started on her. I don't know many times I had to ask her to makesure to get the ORANGE-flavored juice for the team...ORANGE-FLAVORED...yet she continuously DOES NOT get that flavor. *hmph* the AUDACITY of some people.\n" + "\n" + "You swear that, for a breif moment, you hear a break in the crying, and instead a slight chuckle come from the direction of the newly-widowed Mrs.Jamison.");
+                        Console.WriteLine("2. How was your relationship with Dr. Jamison leading up to tonight?\n" + "\n" + "Dr. Jamison? He was fine. Now his wife? Don't even get me started on her.\n" + "I don't know many times I had to ask her to make sure to get the\n" + "ORANGE-flavored juice for the team...ORANGE-FLAVORED...yet she continuously DOES NOT get that flavor. *hmph*\n" + "the AUDACITY of some people.\n" + "\n" + "You swear that, for a breif moment, you hear a break in the crying, and instead a slight chuckle come from the direction of the newly-widowed Mrs.Jamison.");
                         Console.WriteLine("Press any key to continue...");
                         Console.ReadKey();
                         break;
                     case "3":
                         Console.Clear();
-                        Console.WriteLine("3. Out of the people here, who do you think is responsbile?\n" + "\n" + "Peter. It is OBVIOUSLY Peter. I gave him a fanny pack as his Secret Santa last year, and you know where I recently saw that fanny pack? AT MY LOCAL GOODWILL. Clearly someone that ungrateful would do something like this.\n");
+                        Console.WriteLine("3. Out of the people here, who do you think is responsbile?\n" + "\n" + "Peter. It is OBVIOUSLY Peter. I gave him a fanny pack as his Secret Santa last year,\n" + "and you know where I recently saw that fanny pack?\n" + "AT MY LOCAL GOODWILL. Clearly someone that ungrateful would do something like this.\n");
                         Console.WriteLine("Press any key to continue...");
                         Console.ReadKey();
                         break;
@@ -330,20 +330,20 @@ namespace MurderMystery_Console
                 {
                     case "1":
                         Console.Clear();
-                        Console.WriteLine("1. What were you doing leading up to the discovery of the body?\n" + "\n" + "I was in the backyard having a kick around with Jamison Jr. The kid has mad potential.\n" +
+                        Console.WriteLine("1. What were you doing leading up to the discovery of the body?\n" + "\n" + "I was in the backyard having a kick around with Jamison Jr.\n" + "The kid has mad potential.\n" +
                             "\n" + "You notice Peter's eyes narrow at the sound of this.\n");
                         Console.WriteLine("Press any key to continue...");
                         Console.ReadKey();
                         break;
                     case "2":
                         Console.Clear();
-                        Console.WriteLine("2. How was your relationship with Dr. Jamison leading up to tonight?\n" + "\n" + "Dr. Jamison was a-okay to me. He was paying me extra on the side to give J.J. additional soccer lessons. Can never complain about someone putting extra balls in the net, if you catch my drift.\n" + "\n" + "*Martin is, once again, emphatically rolling his eyes.*\n");
+                        Console.WriteLine("2. How was your relationship with Dr. Jamison leading up to tonight?\n" + "\n" + "Dr. Jamison was a-okay to me. He was paying me extra on the side to give J.J. additional soccer lessons.\n" + "Can never complain about someone putting extra balls in the net.\n" + "\n" + "*Martin is, once again, emphatically rolling his eyes.*\n");
                         Console.WriteLine("Press any key to continue...");
                         Console.ReadKey();
                         break;
                     case "3":
                         Console.Clear();
-                        Console.WriteLine("3. Out of the people here, who do you think is responsbile?\n" + "\n" + "That butler has always shown me a yellow card every time I'm around. Probably because he's jealous of my quick feet. I always tell him that I'm happy to help him up the agility, but to no avail.\n");
+                        Console.WriteLine("3. Out of the people here, who do you think is responsbile?\n" + "\n" + "That butler has always shown me a yellow card every time I'm around.\n" + "Probably because he's jealous of my quick feet.\n" + "I always tell him that I'm happy to help him up the agility, but to no avail.\n");
                         Console.WriteLine("Press any key to continue...");
                         Console.ReadKey();
                         break;
@@ -379,20 +379,20 @@ namespace MurderMystery_Console
                 {
                     case "1":
                         Console.Clear();
-                        Console.WriteLine("1. What were you doing leading up to the discovery of the body?\n" + "\n" + "Jamison and I had just finished going over the financial records of his new startup for the last quarter. Everything was as in order as ever. Since that didn't take very long, I was on my out to my car to put my things away before re-joining the party.\n" +
+                        Console.WriteLine("1. What were you doing leading up to the discovery of the body?\n" + "\n" + "Jamison and I had just finished going over the financial records\n" + "of his new startup for the last quarter. Everything was as in order as ever.\n" + "Since that didn't take very long, I was on my out to my car to put my things away before re-joining the party.\n" +
                             "\n" + "*She shakes her head as if to say she is fully aware of how suspicuous that sounds*\n");
                         Console.WriteLine("Press any key to continue...");
                         Console.ReadKey();
                         break;
                     case "2":
                         Console.Clear();
-                        Console.WriteLine("2. How was your relationship with Dr. Jamison leading up to tonight?\n" + "\n" + "I have been working for him for over twenty years. We obviously had our disagreements, over time, but that's to be expected when providing insight on money. Outside of our work-relationship, things were always peachy.\n" + "\n" + "*You notice Mrs.Jamison is not too keen about Linda still being here.*\n");
+                        Console.WriteLine("2. How was your relationship with Dr. Jamison leading up to tonight?\n" + "\n" + "I have been working for him for over twenty years. We obviously had our disagreements, over time,\n" + "but that's to be expected when providing insight on money.\n" + "Outside of our work-relationship, things were always peachy.\n" + "\n");
                         Console.WriteLine("Press any key to continue...");
                         Console.ReadKey();
                         break;
                     case "3":
                         Console.Clear();
-                        Console.WriteLine("3. Out of the people here, who do you think is responsbile?\n" + "\n" + "That annoyance Karen. She's always been trying to stick her nose all over this family's business for no reason other than to create gossip throughout the community. And also because she's constantly been trying to get Jamison to donate to her various pyramid schemes over the years.\n");
+                        Console.WriteLine("3. Out of the people here, who do you think is responsbile?\n" + "\n" + "That annoyance Karen. She's always been trying to stick her nose all over this family's business\n" + "for no reason other than to create gossip throughout the community.\n" + "And also because she's constantly been trying to get Jamison to donate to her various pyramid schemes over the years.\n");
                         Console.WriteLine("Press any key to continue...");
                         Console.ReadKey();
                         break;
@@ -434,13 +434,13 @@ namespace MurderMystery_Console
                         break;
                     case "2":
                         Console.Clear();
-                        Console.WriteLine("2. How was your relationship with Dr. Jamison leading up to tonight?\n" + "\n" + "He was my teacher. I was studying under him through an internship at my university. It was fine. We got along. I learned.\n" + "\n" + "*He maintains the same, annoyed tone throughout.*\n");
+                        Console.WriteLine("2. How was your relationship with Dr. Jamison leading up to tonight?\n" + "\n" + "He was my teacher. I was studying under him through an internship at my university.\n" + "It was fine. We got along. I learned.\n" + "\n" + "*He maintains the same, annoyed tone throughout.*\n");
                         Console.WriteLine("Press any key to continue...");
                         Console.ReadKey();
                         break;
                     case "3":
                         Console.Clear();
-                        Console.WriteLine("3. Out of the people here, who do you think is responsbile?\n" + "\n" + "That idiot Matthew. Can you believe Jamison would entrust that guy with coaching his son in football? I gew up in Liverpool, for Christ's sake. No matter how many times I offered, Jamison repeatedly kept Matthew as the boy's coach. A travesty.\n");
+                        Console.WriteLine("3. Out of the people here, who do you think is responsbile?\n" + "\n" + "That idiot Matthew. Can you believe Jamison would entrust that guy with coaching his son in football?\n" + "I gew up in England, for Christ's sake. No matter how many times I offered,\n" + "Jamison repeatedly kept Matthew as the boy's coach. A travesty.\n");
                         Console.WriteLine("Press any key to continue...");
                         Console.ReadKey();
                         break;
@@ -469,7 +469,7 @@ namespace MurderMystery_Console
             else if (_killer.OfficialAccusation == Suspects.Karen)
             {
                 Console.Clear();
-                Console.WriteLine("You find a box full of juice boxes. Upon further inspection, they appear to be orange-flavored. Upon even further inspection, you notice drops of blood on the plastic.\n" + "\n" + "Press any key to continue...");
+                Console.WriteLine("You find a box full of juice boxes.\n" + "Upon further inspection, they appear to be orange-flavored.\n" + "Upon even further inspection, you notice drops of blood on the plastic.\n" + "\n" + "Press any key to continue...");
                 Console.ReadKey();
             }
             else if (_killer.OfficialAccusation == Suspects.Matthew)
@@ -504,7 +504,7 @@ namespace MurderMystery_Console
             else if (_killer.OfficialAccusation == Suspects.Karen)
             {
                 Console.Clear();
-                Console.WriteLine("You notice a dust ring on one of the coffee tables where it appears a lamp, until recently, used to reside. No sign of the lamp, though.\n" + "\n" + "Press any key to continue...");
+                Console.WriteLine("You notice a dust ring on one of the coffee tables where it appears a lamp,\n" + "until recently, used to reside. No sign of the lamp, though.\n" + "\n" + "Press any key to continue...");
                 Console.ReadKey();
             }
             else if (_killer.OfficialAccusation == Suspects.Matthew)
@@ -516,7 +516,7 @@ namespace MurderMystery_Console
             else if (_killer.OfficialAccusation == Suspects.Linda)
             {
                 Console.Clear();
-                Console.WriteLine("You notice a pillow arrangement is not symmetrical on one of the couches. Which is odd, considering every, other couch is matching.\n" + "\n" + "Press any key to continue...");
+                Console.WriteLine("You notice a pillow arrangement is not symmetrical on one of the couches.\n" + "Which is odd, considering every, other couch is matching.\n" + "\n" + "Press any key to continue...");
                 Console.ReadKey();
             }
             else if (_killer.OfficialAccusation == Suspects.Peter)
@@ -546,7 +546,7 @@ namespace MurderMystery_Console
             else if (_killer.OfficialAccusation == Suspects.Matthew)
             {
                 Console.Clear();
-                Console.WriteLine("The shed appears as if it's been rumamged through. Tools thrown all over the place. Since you're unfamiliar with its contents, you don't know if anything is missing or not.\n" + "\n" + "Press any key to continue...");
+                Console.WriteLine("The shed appears as if it's been rumamged through. Tools thrown all over the place.\n" + "Since you're unfamiliar with its contents, you don't know if anything is missing or not.\n" + "\n" + "Press any key to continue...");
                 Console.ReadKey();
             }
             else if (_killer.OfficialAccusation == Suspects.Linda)
@@ -558,7 +558,7 @@ namespace MurderMystery_Console
             else if (_killer.OfficialAccusation == Suspects.Peter)
             {
                 Console.Clear();
-                Console.WriteLine("The shed appears as if it's been rumamged through. Tools thrown all over the place. Since you're unfamiliar with its contents, you don't know if anything is missing or not.\n" + "\n" + "Press any key to continue...");
+                Console.WriteLine("The shed appears as if it's been rumamged through. Tools thrown all over the place.\n" + "Since you're unfamiliar with its contents, you don't know if anything is missing or not.\n" + "\n" + "Press any key to continue...");
                 Console.ReadKey();
 
             }
@@ -576,13 +576,13 @@ namespace MurderMystery_Console
             else if (_killer.OfficialAccusation == Suspects.Karen)
             {
                 Console.Clear();
-                Console.WriteLine("Upon inspecting a few of the Jamison family cars, you notice Mrs.Jamison's car unlocked with a bloodied lamp hidden under some soccer gear.\n" + "\n" + "Press any key to continue...");
+                Console.WriteLine("Upon inspecting a few of the Jamison family cars, you notice Mrs.Jamison's car unlocked\n" + "with a bloodied lamp hidden under some soccer gear.\n" + "\n" + "Press any key to continue...");
                 Console.ReadKey();
             }
             else if (_killer.OfficialAccusation == Suspects.Matthew)
             {
                 Console.Clear();
-                Console.WriteLine("You notice a head-sized dent in the hood of Mr.Jamison's Bentley. A sizeable blow, if ever there was one.\n" + "\n" + "Press any key to continue...");
+                Console.WriteLine("You notice a head-sized dent in the hood of Mr.Jamison's Bentley.\n" + "A sizeable blow, if ever there was one.\n" + "\n" + "Press any key to continue...");
                 Console.ReadKey();
             }
             else if (_killer.OfficialAccusation == Suspects.Linda)
@@ -594,7 +594,7 @@ namespace MurderMystery_Console
             else if (_killer.OfficialAccusation == Suspects.Peter)
             {
                 Console.Clear();
-                Console.WriteLine("After looking around the garage, you come across a soccer ball that appears to have fallen out of its bin. Upon picking it up to put it away, you notice blood stains on top of normal dirt marks.\n" + "\n" + "Press any key to continue...");
+                Console.WriteLine("After looking around the garage, you come across a soccer ball that appears to have fallen out of its bin.\n" + "Upon picking it up to put it away, you notice blood stains on top of normal dirt marks.\n" + "\n" + "Press any key to continue...");
                 Console.ReadKey();
 
             }
@@ -612,25 +612,25 @@ namespace MurderMystery_Console
             else if (_killer.OfficialAccusation == Suspects.Karen)
             {
                 Console.Clear();
-                Console.WriteLine("You find leftovers from dinner. Mostly half-eaten plates, since the body was discovered mid-meal. Your tummy rumbles, so you grab a roll.\n" + "\n" + "Press any key to continue...");
+                Console.WriteLine("You find leftovers from dinner. Mostly half-eaten plates, since the body was discovered mid-meal.\n" + "Your tummy rumbles, so you grab a roll.\n" + "\n" + "Press any key to continue...");
                 Console.ReadKey();
             }
             else if (_killer.OfficialAccusation == Suspects.Matthew)
             {
                 Console.Clear();
-                Console.WriteLine("Upon inspecting closely, you find a bloodied hammer wrapped up in what looks to be an unused kitchen utensil set.\n" + "\n" + "Press any key to continue...");
+                Console.WriteLine("Upon inspecting closely, you find a bloodied hammer\n" + "wrapped up in what looks to be an unused kitchen utensil set.\n" + "\n" + "Press any key to continue...");
                 Console.ReadKey();
             }
             else if (_killer.OfficialAccusation == Suspects.Linda)
             {
                 Console.Clear();
-                Console.WriteLine("While walking around the dinner table, you notice one of the seats has a pillow on it. Looks like this might belong elsewhere.\n" + "\n" + "Press any key to continue...");
+                Console.WriteLine("While walking around the dinner table, you notice one of the seats has a pillow on it.\n" + "Looks like this might belong elsewhere.\n" + "\n" + "Press any key to continue...");
                 Console.ReadKey();
             }
             else if (_killer.OfficialAccusation == Suspects.Peter)
             {
                 Console.Clear();
-                Console.WriteLine("You find leftovers from dinner. Mostly half-eaten plates, since the body was discovered mid-meal. Your tummy rumbles, so you grab a roll.\n" + "\n" + "Press any key to continue...");
+                Console.WriteLine("You find leftovers from dinner. Mostly half-eaten plates, since the body was discovered mid-meal.\n" + "Your tummy rumbles, so you grab a roll.\n" + "\n" + "Press any key to continue...");
                 Console.ReadKey();
 
             }
