@@ -10,6 +10,7 @@ namespace MurderMystery_Console
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.Red;
             ProgramUI ui = new ProgramUI();
 
             ui.Run();

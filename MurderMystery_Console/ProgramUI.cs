@@ -24,11 +24,11 @@ namespace MurderMystery_Console
             {
                 Console.Clear();
                 Console.WriteLine(
-                    "Dr. Jamison Jamison was murdered tonight in his home during the middle of a dinner party. His butler, Martin, reported the crime. You have been called to help solve the mystery. The 4 guests of the dinner party have all been held for questioning, and the entire house has been opened up for you to investigate. Where would you like to start?\n" + "\n" +
-                    "1. Suspects\n" +
-                    "2. Search the house.\n" +
-                    "3. Make an accusation.\n" +
-                    "4. Give up.");
+                    "Dr. Jamison Jamison was murdered tonight in his home during the middle of a dinner party. His butler, Martin, reported the crime. You have been called to help find the killer. The 4 guests of the dinner party have all been held for questioning, and the entire house has been opened up for you to investigate. Where would you like to start?\n" + "\n" +
+                    "\t1. Suspects\n" +
+                    "\t2. Search the house.\n" +
+                    "\t3. Make an accusation.\n" +
+                    "\t4. Give up.");
 
                 string userInput = Console.ReadLine();
 
@@ -62,12 +62,12 @@ namespace MurderMystery_Console
             {
                 Console.Clear();
                 Console.WriteLine("As you look around the main room, you see the five suspects that have been held on the premesis for questioning. Choose who you'd like to speak with first.\n" + "\n" +
-                    "1. Martin\n" +
-                    "2. Karen\n" +
-                    "3. Matthew\n" +
-                    "4. Linda\n" +
-                    "5. Peter\n" +
-                    "6. Return to the main room.");
+                    "\t1. Martin\n" +
+                    "\t2. Karen\n" +
+                    "\t3. Matthew\n" +
+                    "\t4. Linda\n" +
+                    "\t5. Peter\n" +
+                    "\t6. Return to the main room.");
 
                 string userInput = Console.ReadLine();
 
@@ -107,12 +107,12 @@ namespace MurderMystery_Console
             {
                 Console.Clear();
                 Console.WriteLine("Choose your destination. We need to search all the rooms for clues.\n" + "\n" +
-                    "1. Kitchen\n" +
-                    "2. Living Room\n" +
-                    "3. Shed\n" +
-                    "4. Garage\n" +
-                    "5. Dining Room\n" +
-                    "6. Return to the main room.");
+                    "\t1. Kitchen\n" +
+                    "\t2. Living Room\n" +
+                    "\t3. Shed\n" +
+                    "\t4. Garage\n" +
+                    "\t5. Dining Room\n" +
+                    "\t6. Return to the main room.");
 
                 string userInput = Console.ReadLine();
 
@@ -153,11 +153,11 @@ namespace MurderMystery_Console
                 {
                     Console.Clear();
                     Console.WriteLine("Have you gathered all the evidence? If you are ready, lets lock this criminal up. Enter the number of which suspect you think committed the crime.\n" +
-                       "1. Martin\n" +
-                       "2. Karen\n" +
-                       "3. Matthew\n" +
-                       "4. Linda\n" +
-                       "5. Peter\n");
+                       "\t1. Martin\n" +
+                       "\t2. Karen\n" +
+                       "\t3. Matthew\n" +
+                       "\t4. Linda\n" +
+                       "\t5. Peter\n");
 
                     string userInput = Console.ReadLine();
                     int accusationSelect = int.Parse(userInput);
@@ -221,10 +221,10 @@ namespace MurderMystery_Console
                 Console.Clear();
                 Console.WriteLine("You approach Martin, the family butler.\n" +
                    "'How may I assist?' he asks.\n" +
-                   "1. What were you doing leading up to the discovery of the body?\n" +
-                   "2. How was your relationship with Dr. Jamison leading up to tonight?\n" +
-                   "3. Out of the people here, who do you think is responsbile?\n" +
-                   "4. Return to the other suspsects.");
+                   "\t1. What were you doing leading up to the discovery of the body?\n" +
+                   "\t2. How was your relationship with Dr. Jamison leading up to tonight?\n" +
+                   "\t3. Out of the people here, who do you think is responsbile?\n" +
+                   "\t4. Return to the other suspsects.");
 
                 string userInput = Console.ReadLine();
 
@@ -270,10 +270,10 @@ namespace MurderMystery_Console
                 Console.Clear();
                 Console.WriteLine("You approach Karen, the mother in charge of Dr.Jamison's son's soccer team carpool\n" +
                    "'If we don't speed this up, I'm gonna need to speak to the person in charge' she demands.\n" +
-                   "1. What were you doing leading up to the discovery of the body?\n" +
-                   "2. How was your relationship with Dr. Jamison leading up to tonight?\n" +
-                   "3. Out of the people here, who do you think is responsbile?\n" +
-                   "4. Return to the other suspsects.");
+                   "\t1. What were you doing leading up to the discovery of the body?\n" +
+                   "\t2. How was your relationship with Dr. Jamison leading up to tonight?\n" +
+                   "\t3. Out of the people here, who do you think is responsbile?\n" +
+                   "\t4. Return to the other suspsects.");
 
                 string userInput = Console.ReadLine();
 
@@ -319,10 +319,10 @@ namespace MurderMystery_Console
                 Console.Clear();
                 Console.WriteLine("You approach Matthew, who had been invited as a 'Thank you' for all his hard work as the coach of Dr. Jamison's son's soccer team.\n" +
                    "'Any chance we can turn on the game while we wait?' he asks.\n" +
-                   "1. What were you doing leading up to the discovery of the body?\n" +
-                   "2. How was your relationship with Dr. Jamison leading up to tonight?\n" +
-                   "3. Out of the people here, who do you think is responsbile?\n" +
-                   "4. Return to the other suspsects.");
+                   "\t1. What were you doing leading up to the discovery of the body?\n" +
+                   "\t2. How was your relationship with Dr. Jamison leading up to tonight?\n" +
+                   "\t3. Out of the people here, who do you think is responsbile?\n" +
+                   "\t4. Return to the other suspsects.");
 
                 string userInput = Console.ReadLine();
 
@@ -368,10 +368,10 @@ namespace MurderMystery_Console
                 Console.Clear();
                 Console.WriteLine("You approach Linda, Dr. Jamison's trusted accountant of over 20 years.\n" +
                    "'I still can't believe it...' she mutters, as if in a daze, as you approach.\n" +
-                   "1. What were you doing leading up to the discovery of the body?\n" +
-                   "2. How was your relationship with Dr. Jamison leading up to tonight?\n" +
-                   "3. Out of the people here, who do you think is responsbile?\n" +
-                   "4. Return to the other suspsects.");
+                   "\t1. What were you doing leading up to the discovery of the body?\n" +
+                   "\t2. How was your relationship with Dr. Jamison leading up to tonight?\n" +
+                   "\t3. Out of the people here, who do you think is responsbile?\n" +
+                   "\t4. Return to the other suspsects.");
 
                 string userInput = Console.ReadLine();
 
@@ -416,10 +416,10 @@ namespace MurderMystery_Console
             {
                 Console.Clear();
                 Console.WriteLine("You approach Peter, Dr. Jamison's understudy.\n" + "'What do you want?' he coldly asks.\n" +
-                   "1. What were you doing leading up to the discovery of the body?\n" +
-                   "2. How was your relationship with Dr. Jamison leading up to tonight?\n" +
-                   "3. Out of the people here, who do you think is responsbile?\n" +
-                   "4. Return to the other suspsects.");
+                   "\t1. What were you doing leading up to the discovery of the body?\n" +
+                   "\t2. How was your relationship with Dr. Jamison leading up to tonight?\n" +
+                   "\t3. Out of the people here, who do you think is responsbile?\n" +
+                   "\t4. Return to the other suspsects.");
 
                 string userInput = Console.ReadLine();
 

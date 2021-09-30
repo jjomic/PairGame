@@ -8,6 +8,7 @@ namespace ClassLibrary1
 {
     public class MysteryContent
     {
+
         public Suspects OfficialAccusation { get; set; }
         public void PickSuspect()
         {
